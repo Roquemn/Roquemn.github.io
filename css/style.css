@@ -14,6 +14,7 @@ body {
   width: 100%;
   font-family: "Oswald", sans-serif;
   background-color: #292929;
+  height: 100%;
 }
 
 header {
@@ -165,7 +166,7 @@ button:hover {
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
   height: 15rem;
   background-color: #292929;
@@ -184,6 +185,7 @@ footer a {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 200;
+  margin: 1rem;
 }
 
 footer a:hover {
