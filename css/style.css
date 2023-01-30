@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  background-color: #292929;
+}
+
+header {
+  min-height: 30rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 7.5rem;
+  background-color: #292929;
+  z-index: 3;
+}
+
+.logo {
+  justify-content: flex-start;
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 1rem;
+  margin-left: 1.5rem;
+}
+
+.logo:hover {
+  transition: 0.4s all;
+  transform: scale(1.2);
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.nav-links {
+  margin-right: 1.5rem;
+}
+
+.image-container {
+  height: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 3.5rem;
+  font-size: 2.4rem;
+  color: white;
+}
+
+nav a:hover {
+  color: #5e17eb;
+  transition: 0.3s all;
+}
+
+nav a:active {
+  color: #b7ff00;
+}
+
+.hero {
+  background: linear-gradient(
+    45deg,
+    hsla(260, 84%, 51%, 1) 0%,
+    hsla(231, 89%, 15%, 1) 100%
+  );
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  align-items: center;
+  padding: 5rem;
+  margin: auto;
+}
+
+.tiger {
+  border-radius: 50%;
+  height: 50rem;
+}
+
+.name {
+  color: white;
+  font-size: 4.8rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+}
+
+.yellow:hover {
+  color: #b7ff00;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.contact-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.message {
+  color: #b7ff00;
+  margin-bottom: 2rem;
+  font-size: 3.2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(94, 23, 235);
+  width: 30%;
+  height: 45rem;
+  margin: auto;
+  padding: 3rem 0;
+  color: white;
+  border-radius: 5rem;
+  font-family: "oswald", sans-serif;
+  font-size: 1.6rem;
+}
+
+input,
+label,
+textarea,
+button {
+  margin: auto;
+  width: 50%;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+button {
+  background: transparent;
+  padding: 2rem;
+  border: 3px solid #b7ff00;
+  color: white;
+  font-family: "oswald", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background: #b7ff00;
+  color: #292929;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 15rem;
+  background-color: #292929;
+}
+
+footer p {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 200;
+  letter-spacing: 0.3rem;
+  opacity: 0.5;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+footer a:hover {
+  color: #b7ff00;
+}
+
+.logo-footer {
+  height: 4.5rem;
+  border-radius: 1rem;
+}
