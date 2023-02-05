@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bg {
+    background-color: #4c4ccb;
+}
+
+.purple {
+    background-color: #4c4ccb;
+    border: 2px solid transparent;
+    color: white;
+}
+
+.purple:hover {
+    background-color: #292929;
+    border: 2px solid #4c4ccb;
+    transition: .3s all;
+}
