@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -42,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #006fbe;
+  background: #558d1a;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -56,7 +58,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0087e7;
+  background: #292929;
   color: #fff;
 }
 
@@ -69,7 +71,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #292929;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -83,10 +85,11 @@ h6 {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.5px;
+  font-family: 'pacifico', cursive;
 }
 
 #header .logo a {
-  color: #24325d;
+  color: #ffffff;
 }
 
 #header .logo img {
@@ -124,7 +127,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: #2b3c6f;
+  color: #ababab;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -140,7 +143,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #006fbe;
+  color: #ffffff;
 }
 
 .navbar .dropdown ul {
@@ -430,7 +433,7 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #006fbe;
+  background: #292929;
 }
 
 #hero .btn-get-started {
@@ -525,7 +528,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #006fbe;
+  background: #558d1a;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -579,15 +582,15 @@ section {
   border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
-  color: #006fbe;
+  color: #558d1a;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #006fbe;
+  border: 2px solid #558d1a;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #006fbe;
+  background: #558d1a;
   color: #fff;
   text-decoration: none;
 }
@@ -616,7 +619,7 @@ section {
 
 .features .icon i {
   line-height: 0;
-  color: #006fbe;
+  color: #558d1a;
   font-size: 34px;
 }
 
@@ -647,7 +650,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #006fbe;
+  background: #558d1a;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -674,11 +677,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #006fbe;
+  border: 1px solid #558d1a;
 }
 
 .recent-photos .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #006fbe;
+  background-color: #558d1a;
 }
 
 .recent-photos .owl-nav,
@@ -1300,7 +1303,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #1d284b;
+  background: #292929;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1312,7 +1315,7 @@ section {
   font-weight: 700;
   color: #fff;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "pacifico", cursive;
   padding: 0;
   margin: 0 0 15px 0;
 }
@@ -1331,7 +1334,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #006fbe;
+  background: #558d1a;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1344,8 +1347,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #007ed8;
-  color: #fff;
+  background: #fff;
+  color: #292929;
   text-decoration: none;
 }
 
@@ -1358,10 +1361,10 @@ section {
 }
 
 #footer .credits a {
-  color: #006fbe;
+  color: #558d1a;
   transition: 0.3s;
 }
 
 #footer .credits a:hover {
-  color: #008df1;
+  color: #fff;
 }
