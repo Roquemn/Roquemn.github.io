@@ -215,7 +215,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #24325d;
+  color: #558d1a;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -424,8 +424,8 @@ h6 {
   background: #fff;
   overflow: hidden;
   border: 0;
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 8px;
   border-radius: 50px;
   opacity: 0.6;
   transition: 0.3s;
@@ -433,7 +433,7 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #292929;
+  background: #558d1a;
 }
 
 #hero .btn-get-started {
