@@ -272,13 +272,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #24325d;
+  color: #558d1a;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #006fbe;
+  color: #0a4b20;
 }
 
 .navbar-mobile .getstarted,
@@ -313,7 +313,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #558d1a;
+  color: #0e6c2f;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -624,7 +624,7 @@ section {
 }
 
 .features .icon-box:hover .icon {
-  box-shadow: 0px 0 25px rgba(0, 111, 190, 0.3);
+  box-shadow: 0px 0 25px rgb(85, 141, 26, .302);
 }
 
 .features .title {
